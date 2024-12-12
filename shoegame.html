@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="css/shoegame.css">
+<head>
+    <title>Shoe Name Generator</title>
+    <script>
+        function generateShoeName() {
+            const adjectives = ["Speedy", "Classic", "Futuristic", "Cozy", "Bold", "Sleek", "Sporty", "Vintage"];
+            const nouns = ["Runner", "Sneaker", "Boot", "Slipper", "Loafer", "Sandal", "Clog", "Oxford"];
+
+            const randomAdjective = adjectives[Math.floor(Math.random() * adjectives.length)];
+            const randomNoun = nouns[Math.floor(Math.random() * nouns.length)];
+
+            document.getElementById("shoeName").textContent = randomAdjective + " " + randomNoun;
+        }
+    </script>
+</head>
+<body>
+    <h1>Shoe Name Generator</h1>
+    <button onclick="generateShoeName()">Generate Name</button>
+    <p id="shoeName"></p>
+</body>
+</html>

@@ -1,0 +1,83 @@
+.masthead{
+    background-image: url(../Images/Simpsons_Background_Image.jpg); background-position: center center; background-size: cover;
+    height: 325px;
+}
+body{
+    background-color: white
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black
+}
+.common{
+    background-color: rgb(184, 176, 176);
+    border: 2px solid white;
+    position: absolute;
+}
+.page-heading{
+    text-align: center;
+    padding-top: 50px;
+    font-size: xxx-large;
+    color: rgb(197, 19, 19);
+}
+.subheading{
+    text-align: center;
+    font-size: x-large;
+    padding-bottom: 50px;
+}
+.leftmenu{
+    top: 335px;
+    left: 5px;
+    width: 150px;
+    height: 750px;
+    bottom: 39px;
+    z-index: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: solid 1px grey
+}
+.mainbody{
+    top: 335px;
+    left: 150px;
+    right: 114px;
+    width: 950px;
+    height: 750px;
+    bottom: 39px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+.rightmenu{
+    top: 335px;
+    right: 5px;
+    width: 150px;
+    height: 730px;
+    bottom: 39px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    text-align: center;
+    border-left: solid 1px grey
+    
+}
+.footer{
+    bottom: 5px;
+    top:1085px ;
+    left: 5px;
+    right: 5px;
+    height: 35px;
+    font-size: 8px;
+    padding-top: 5px;
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    font-size: x-large;
+}
+.subheader{
+    float: right;
+}
+.img{
+    align-self: center;
+}
+.shoe-name {
+    font-weight: bold;
+    text-align: center;
+}
